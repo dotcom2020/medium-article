@@ -1,0 +1,72 @@
+body {
+  color:#494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  margin: 0;
+  font-family: 'lora', serif;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  padding: 160px 0;
+  background-blend-mode: darken;
+
+}
+
+.container {
+  text-align: left;
+  width: 700px;
+  margin: 50px auto;
+
+}
+
+.container h2 {
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+a:hover {
+  background: linear-gradient(#64e685, #91e5be);
+}
+
+#h2-lora {
+  font-family: 'lora', serif;
+  font-size: 30px;
+  margin: 30px 0;
+}
+#link-brown {
+ text-transform: capitalize;
+ font-size: 25px;
+ font-weight: lighter;
+ font-style: italic;
+ text-decoration: none;
+ color: #494949;
+}
+
+@media (max-width: 750px){
+.container {
+    width: 450px;
+}}
+
+@media (max-width: 500px)
+{.container {
+    width: 350px;
+}}
